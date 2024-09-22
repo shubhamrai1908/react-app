@@ -12,7 +12,7 @@ export default function HelloWorld() {
     useEffect(() => {
       // Call the Spring Boot API using Axios
       axios
-        .get("http://localhost:8080/api")
+        .get("https://demo-1-production.up.railway.app/api")
         .then((response) => {
           // Handle success
           setMessage(response.data);
