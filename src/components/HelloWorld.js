@@ -19,7 +19,7 @@ export default function HelloWorld() {
         })
         .catch((error) => {
           // Handle error
-          console.error("There was an error fetching the data!", error);
+          console.error("Ther was an error fetching the data!", error);
         });
     }, []);
   return (
